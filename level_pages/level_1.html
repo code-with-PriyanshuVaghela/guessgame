@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEVEL 1</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <main class="level_main">
+        <h1>Number Guessing Game</h1>
+        <h1>Level 1</h1>
+        <section class="level_container">
+            <h1>Guess Number</h1>
+            <form class="number_input">
+                <input type="text" value="1" id="level">
+                <input type="text" id="userAns">
+                <input type="submit" class="submit_btn">
+            </form>
+            <div class="pre_guess">Preview Guess : [<span id="pre_guess"> </span>]</div>
+            <div class="guess_rem">Guess Remaining : <span id="guess_rem">2</span></div>
+            <div class="loworhigh"></div>
+        </section>
+        <div class="note">NOTE : - Try and guess number between 1 to 5. <br> You have 2 attempts to guess the right
+            number.</div>
+        <section id="popup">
+            <div class="popup-container">
+                <button id="playagain">Play Again</button>
+                <button id="nextlevel">Next Level</button>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="../sound.js"></script>
+<script src="../script.js"></script>
+
+</html>
